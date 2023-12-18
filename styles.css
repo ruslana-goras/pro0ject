@@ -1,53 +1,118 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+ <style>
+        h1 {
+            color: red;
+        }
+        .eooo {
+            color: blue;
+            text-align: center;
+        }
+        body {
+            background-color: yellow;
+        }
+
+        /* Class Selector */
+        .nav-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Descendant Selector */
+        .content p {
+            font-size: 18px;
+        }
+
+        /* Child Selector */
+        .footer > p {
+            font-style: italic;
+            color: gray;
+        }
+
+        /* Pseudo-classes */
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        li:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        input:focus {
+            border: 2px solid blue;
+        }
+
+        /* Pseudo-elements */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p::first-letter {
+            font-size: 1.5em;
+            color: purple;
+        }
+
+        /* Additional */
+        .portfolio-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Visibility, Opacity, Display */
+        .hidden-element {
+            visibility: hidden;
+        }
+
+        .semi-transparent {
+            opacity: 0.5;
+        }
+
+        .invisible-element {
+            display: none;
+        }
+        <!-- Added styles for padding and margin to .nav-bar, .content, and .footer -->
+
+    /* ... (previous styles) ... */
+
+    /* Class Selector */
+    .nav-bar {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px; /* Added margin */
+    }
+
+    /* Descendant Selector */
+    .content p {
+        font-size: 18px;
+        margin: 0; /* Remove default margin */
+        padding: 10px; /* Add padding */
+    }
+
+    /* Child Selector */
+    .footer > p {
+        font-style: italic;
+        color: gray;
+        margin-top: 10px; /* Added margin */
+    }
+/* CSS Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-header {
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
+/* Apply animation to the header */
+h1 {
+    color: red;
+    animation: fadeIn 2s ease-in-out;
 }
 
-nav {
-  background-color: #444;
-}
+    /* ... (remaining styles) ... */
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-section {
-  padding: 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-}
+    </style>
 
