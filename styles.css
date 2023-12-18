@@ -2,31 +2,36 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FF6633;
+  background-color: #fcdfe8; /* Pastel Pink Background */
 }
 
 header {
   text-align: center;
-  background-color: #FF99FF;
+  background-color: #ff7eb9; /* Pastel Pink Header */
   color: #fff;
   padding: 20px 0;
 }
 
 section {
   padding: 20px;
+  background-color: #fff; /* White Section Background */
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded Corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box Shadow for Depth */
 }
 
 img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 8px; /* Rounded Corners for Images */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #CC66FF;
-  color: red;
+  background-color: #ff7eb9; /* Pastel Pink Footer */
+  color: white;
 }
 
 
